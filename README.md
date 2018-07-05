@@ -1,4 +1,5 @@
 # vimrc
 small vimrc with my favorite shortcuts
-Feel free to use it as you please
-copy file to ~/.vimrc
+feel free to use it
+added 42's original vimrc file
+all credits goes to zaz
