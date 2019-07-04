@@ -1,6 +1,5 @@
 set number
 set cc=80
-syntax on
 set ruler
 set background=dark
 set listchars=tab:»·,trail:·
@@ -21,5 +20,8 @@ inoremap <F8> ()<Left>
 inoremap <S-F8> []<Left>
 "inoremap <F9> {}<Left><Up><Tab>
 "inoremap <F10> ->
+noremap	<S-Tab> :tabprevious<CR>
+noremap	<Tab> :tabnext<CR>
 inoremap <F9> /*
 inoremap <F10> */
+syntax on
